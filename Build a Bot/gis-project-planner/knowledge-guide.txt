@@ -1,0 +1,23 @@
+GEOPLAN BUDDY: PROJECT PLANNING REFERENCE
+This is an introductory planning guide, not proof that a particular dataset or method is suitable.
+
+Project framing
+State the question before selecting tools. Define geography, audience, time period, deliverable, and what will be excluded. Separate exploratory maps from claims that require validated analysis.
+
+Typical data needs
+Administrative boundaries define a study area. Points may represent facilities or observations. Networks can support routing when they contain suitable connectivity and travel restrictions. Population data can support distribution comparisons but must match the geographic and temporal scale of the question. Dataset availability and licensing must be checked.
+
+Data preparation
+Record provenance and metadata. Check coverage, date, missing values, duplicate records, attribute meaning, spatial reference, units, and relevant geometry issues. Preserve source files and document changes. Transform coordinates appropriately when combining layers; do not repair misalignment by guessing a CRS.
+
+Analysis planning
+Choose methods that match the question and available data. A buffer can represent a distance threshold but does not by itself model routes, barriers, travel time, service quality, or capacity. Network analysis requires suitable network data and assumptions. Define thresholds explicitly and consider how different thresholds would change interpretation.
+
+Project management
+Sequence work as scope, data discovery, data validation/preparation, analysis, map/report, and review. Make dependencies visible. Estimate effort within actual available hours. Reserve time for review and unexpected data issues. If data or time is insufficient, reduce scope and label limitations rather than promising unsupported results.
+
+Quality and delivery
+Check that the output answers the question. Inspect spatial alignment and units, verify selected records or cases, and document assumptions. Include an informative title, source dates, legend and units where needed, readable symbols, and method limitations. Use a scale bar only where meaningful for the map. Record licensing and source acknowledgments. Provide an accessible summary for the intended audience.
+
+Responsible practice
+Avoid exposing individual or sensitive locations. Consider who is omitted or misrepresented by the data. Describe limitations instead of presenting maps as certain or neutral facts. Do not infer individual characteristics from aggregate geography.
